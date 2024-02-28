@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site</title>
+    <style>
+        body {
+            background-color: grey;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0%;
+        }
+
+        header {
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        main {
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
+        }
+
+        .noticia {
+            background-color: lightgray;
+            padding: 5px;
+            text-align: justify;
+            box-shadow: 3px 4px 20px;
+        }
+
+        article > aside {
+            background-color: rgb(155, 151, 151);
+        }
+
+        footer {
+            color: white;
+            background-color: black;
+            padding: 5px;
+            text-align: center;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        nav {
+            background-color: rgb(151, 151, 151);
+            padding: 3px;
+            box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.425);
+        }
+
+        .assunto {
+            box-shadow: inset 1px 1px 10px;
+            padding: 6px;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .assuntob > p {
+            margin: 0px;
+
+        }    
+
+        nav > a {
+            font-weight: bold;
+            text-decoration: none;
+            color: white;
+            margin-right: 15px;
+        }
+
+        nav > a:hover {
+            color: rgb(78, 78, 78);
+            text-decoration: underline;
+        }
+
+        nav > a:active {
+            color: pink;
+        }
+        
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%; 
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+            <h1>Site</h1>
+            <nav>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+            </nav>
+    </header>
+    <main>
+        <section class="assunto">
+            <article class="assuntob">
+                <p>Esportes Politica Tecnologia</p>
+            </article>
+        </section>
+        <section>
+            <article class="noticia">
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, incidunt. Consequatur neque temporibus recusandae? Veritatis ut qui harum a quo veniam temporibus at ipsum esse facilis, provident, cupiditate ipsa quisquam.</p>
+                <aside>
+                    <p>Artigo escrito po José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
